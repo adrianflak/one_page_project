@@ -1,0 +1,30 @@
+
+.page-template-default {
+
+}
+.site-content {
+    width: 100%;
+    position: relative;
+}
+.introduction {
+    text-align: center;
+    margin-top: 40px;
+}
+.block-grid__product-item {
+    width: 350px;
+}
+.block-grid__product-item img {
+    max-width: 100%;
+}
+.block-grid {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+ul,li {
+    margin: 0;
+    padding: 0;
+}
+  
