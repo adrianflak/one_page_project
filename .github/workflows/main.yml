@@ -7,11 +7,11 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: action/checkout@v1
+    - uses: actions/checkout@v1
     - name: Wdrożenie aplikacji
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: "s1.ct8.pl"
-        server-dir: "./public_html"
+        server-dir: "./public_html/"
         username: ${{secrets.FTP_USERNAME}}
         password: ${{secrets.FTP_PASSWORD}}
